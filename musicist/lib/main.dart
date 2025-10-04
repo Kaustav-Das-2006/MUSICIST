@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:musicist/screens/home_screen.dart';
+import 'package:musicist/screens/search_screen.dart';
 //import 'package:musicist/screens/login_screen.dart';
 //import 'package:wallpaper_app/login_screen.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(brightness: Brightness.dark),
-      home: const HomeScreen(),
+      home: const SearchScreen(),
     );
   }
 }
