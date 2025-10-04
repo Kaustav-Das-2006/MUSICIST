@@ -1,0 +1,27 @@
+name: musicist
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0" # Updated for better compatibility
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # FIX #1: Added a version number
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # FIX #2: Pointed directly to the images folder
+  assets:
+    - assets/images/
